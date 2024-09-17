@@ -10,20 +10,20 @@ flowchart TD
     Cloud[(Cloud)] .-> DataFetch
     subgraph ISPyPsa
     DataFetch ==> Templater[Templater]
-    Templater ==> Template["Template
-    'PyPSA-friendly'
-    (scenario, years, ref_map)"]
+    Templater ==> Template[Template]
     CER[CER Module] ==> Template
     Template .-> Input((Input Data))
     Template .-> Config((Model Config))
-    subgraph Translators
     Template ==> Static[Static]
     Template ==> TS[Time Series]
+    subgraph Translators
     Static <.->|Interactions
     e.g. outages| TS
     end
-    Static ==> Aggregator[Geographic Aggregator]
-    TS ==> Aggregator
+    Static ==> PyPSAFriendly["'PyPSA-friendly'
+    (scenario, years, ref_map)"] 
+    TS ==> PyPSAFriendly
+    PyPSAFriendly ==> Aggregator[Geographic Aggregator]
     Aggregator ==> TSP[Time-series Processing]
     TSP ==> ModelData((PyPSA input))
     ModelData ==> CEM["PyPSA CEM]
