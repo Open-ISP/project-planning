@@ -70,4 +70,33 @@ These are for hydrogen electrolysers at ports.
 
 ## Options Considered
 
-## Consequences
+### Group constraints
+
+Pro:
+  - For some REZ no specific transmission limits are given so the only way that makes sense to define limits is to
+    use the group constraints provided.
+  - We probably want to learn how to implement custom constraints anyway, and this is a good simple use of custom 
+    constraints
+
+Con:
+  - We need to use custom constraints rather a pure PyPSA component based implementation
+  - We need to manually clean data IASR work book because the parser cant handle the required table
+
+### Inter subregional flows impact on REZ export limit
+
+Pro:
+  - Essentially same as for Group constraints
+
+Con:
+  - Essentially same as for Group constraints
+
+## Outcome
+
+### Group constraints
+
+Implement group constraints because they are required to get REZ transmission limit inline with ISP assumption/methods,
+it shouldn't be overly difficult, and it unclear what a simpler alternative would be.
+
+### Inter subregional flows impact on REZ export limit
+
+As per Group constraints
