@@ -16,13 +16,15 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
 - [] Existing (thermal and variable renewable)
   - [] Dynamic marginal costs (marginal cost change by model year)
   - [x] Wind and solar reference year traces used for availability
-  - [] Full and partial outages 
+  - [] Full and partial outages
 
 - [] New entrant (thermal and variable renewable)
   - [] Dynamic marginal costs (marginal cost change by model year)
   - [] Dynamic and locational build cost
   - [] Wind and solar traces used for availability
   - [] Full and partial outages 
+  - [] REZ resource limits
+  - [] Renewable energy entrants outside REZs??
 
 - [] Existing Batteries
 
