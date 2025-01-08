@@ -1,0 +1,24 @@
+
+# Annuitized investment costs
+
+## Status
+Under consideration
+
+## Decision
+ISPyPSA used annuitized investment costs, how do we convert the capital cost provided
+with the ISP inputs to annuitized costs?
+
+## Context
+
+So ISP methodology says they use the following formula for the cost benefit analysis:
+
+(capital_cost * wacc) / (1 - (1 + wacc) ** asset_lifetime)
+
+IASR specifies wacc and asset lifetimes for new generators but can't seem to find
+asset lifetime for transmission projects.
+
+## Options Considered
+
+
+
+## Outcome

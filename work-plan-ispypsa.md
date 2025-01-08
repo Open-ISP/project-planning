@@ -6,12 +6,12 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
 
 # Milestones:
 
-## [] Version 1.0: Production cost and single stage long-term modelling capabilities
+## Version 1.0: Production cost and single stage long-term modelling capabilities
 
 - Production cost model with all existing generators and fuel cost and demand data from a specified model year.
 - Single stage long-term model with all new entrant options and network expansion.
 
-### [] Generators 
+### Generators 
 
 - [] Existing (thermal and variable renewable)
   - [] Dynamic marginal costs (marginal cost change by model year)
@@ -32,7 +32,7 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
 
 - [] Hydro
 
-### [] Network
+### Network
 
 - [] Existing network representation (down to subregional)
   - [] limits between subregions
@@ -55,11 +55,11 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
     Would need to be done with custom constraints 
   - [] Generator MLFs
 
-### [] Demand
+### Demand
 
 - [x] Reference year based traces
 
-### [] Reserves??
+### Reserves??
 
 To be further defined, see ISP Methodology section 2.4.3.
 
