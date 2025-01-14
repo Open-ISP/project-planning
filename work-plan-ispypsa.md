@@ -28,6 +28,8 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
 - [ ] New Entrant Batteries
 
 - [ ] Hydro
+  - [ ] Hydro data and material on AEMO approach (Dylan to follow up)
+  - (note: potential approach of using generic storage object with a link for inflow (energy) from hydro data)
 
 ### Network
 
@@ -85,6 +87,8 @@ Additional features for v1.0.0 building on the initial release
 ### Generators 
 
 - [ ] Full and partial outages
+- [ ] Unit commitment 
+  - [ ] Minimum generation levels (I think related to unit commitment)
 - [ ] Seasonal ratings
 - [ ] Renewable energy entrants outside REZs
 
@@ -102,6 +106,13 @@ Additional features for v1.0.0 building on the initial release
 ### Reserves??
 
 To be further defined, see ISP Methodology section 2.4.3.
+
+### Policy constraints
+
+Integration of major policy constraints. Likely implemented through custom constraints. Including but not limited to:
+- [ ] Global carbon budget constraint(s)
+- [ ] Renewable Energy Target(s)
+  - [ ] Including-state based targets 
 
 ### Temporal resolution reduction
 
@@ -136,3 +147,7 @@ To be further defined, see ISP Methodology section 2.4.3.
 ### Testing
 
 - [ ] Model comparison against ISP
+
+#  Benchmarking / monitoring
+
+Not tied to particular release schedule, some monitoring and reporting of model performance will be valuable as we develop / introduce greater complexity. 
