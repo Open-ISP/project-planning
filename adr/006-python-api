@@ -1,0 +1,33 @@
+
+# Python API design
+
+## Status
+
+Accepted
+
+## Decision
+
+Proposal to refactor the API such that each step in the workflow is run through a single
+function (or one or two high level functions) .i.e templater run through
+create_template(). These will be public functions that an ISPyPSA user can import, and
+also used in the dodo file. Additionally, these functions will not handle disk io,
+but just return a dict of dataframes, with disk io handled via dedicated io functions.
+
+## Context
+
+The objective of this change is to:
+
+- Simplify the dodo file so it is easier to read.
+- Make the core ISPyPSA functionality more accessible by allowing it to be used through
+  a small number of functions.
+- Make the core functionality easier to document via docstrings in core functions
+- Make testing easier by having the core functionality use dataframes as io rather
+  than writing to disk
+
+## Options Considered
+
+NA
+
+## Consequences
+
+See context.

@@ -19,6 +19,14 @@ Key decisions:
 - Which transmission option to choose in the templater?
 - Are we modelling transmission expansion from REZs to emerging load centres?
 
+Misc smaller questions:
+- In the REZ transmission limit constraint summary does the NSW QLD interconnector include terranorra or not?
+- CNSW-SNW sourthern vs northern limit?
+- CQ-SQ vs SQ-CQ typo or semmantic difference?
+- How is the rez resource limit penalty factor applied
+- What are the rez secondary transmission limits
+- What lifetime to use when annuitizing investment costs
+
 ## Context
 
 ### Links and Lines

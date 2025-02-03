@@ -35,7 +35,6 @@ and any links to more detailed documentation, GitHub issues, or pull requests.
 
 - [ ] Existing network representation
   - [ ] limits between subregions
-  - [ ] Forward and reverse limits (Nick to follow up on)
   - [ ] rez export limits
   - [ ] group constraints that link rez and subregion transfer limits
 
@@ -98,6 +97,7 @@ Additional features for v1.0.0 building on the initial release
 - [ ] Network losses
   - [ ] interregional loss equations
     Would need to be done with custom constraints 
+- [ ] Forward and reverse limits
 
 ### Demand
 
