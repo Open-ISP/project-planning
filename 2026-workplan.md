@@ -18,11 +18,11 @@ roughly equal priority which can be implemented (mostly) in parallel.
 
 ## Tranche 1 - 2026 ISP update and data validation:
 
-- Review translater output (ISPyPSA tables format)
-- Update translater to work 2026 ISP IASR and implement changes flowing from review
+- Review templater output (ISPyPSA tables format)
+- Update templater to work with 2026 ISP IASR and implement changes flowing from review
 - Implement data validation for ISPyPSA tables and translator tables
 - Update the trace parser to work with 2026 ISP traces
-- Update ISPyPSA to support PyPSA 1.0 and lastest Python 3.10-14
+- Update ISPyPSA to support PyPSA 1.0 and latest Python 3.10-14
 
 ## Tranche 2+ (to be broken up with prioritisation):
 
@@ -37,14 +37,14 @@ roughly equal priority which can be implemented (mostly) in parallel.
     - Reserves
     - Hydrogen
 
-- Network Network
+- Network
     - Seasonal ratings
     - Network losses
 
 - Policy constraints
     - Carbon budget
     - Renewable energy target
-    - Storage targets_
+    - Storage targets
 
 - Temporal resolution reduction
     - sampled chronology
