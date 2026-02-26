@@ -37,7 +37,7 @@ roughly equal priority which can be implemented (mostly) in parallel.
     - Reserves
     - Hydrogen
 
-- Network Network
+- Network
     - Seasonal ratings
     - Network losses
 
