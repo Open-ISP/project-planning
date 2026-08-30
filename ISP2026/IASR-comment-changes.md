@@ -2,7 +2,7 @@
 
 Table below is just intended to more clearly show the change in outputs from fixes to the comment sanitizers in the update to the workbook parser for v7.8 of the workbook. 
 
-The able shows the example output filename, the column that has changed - the current/existing output from the parser, the new output from the dix (and the the original text to check / confirm the results)
+The table shows the example output filename, the column that has changed - the current/existing output from the parser, the new output from the dix (and the the original text to check / confirm the results)
 
 | filename | column | current | updated | original text |
 |---|---|---|---|---|
